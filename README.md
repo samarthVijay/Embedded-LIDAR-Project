@@ -2,6 +2,10 @@
 
 A cost-effective, hardware-integrated LIDAR scanner built using embedded firmware programming and time-of-flight telemetry to map, process, and render 3D models of physical spaces.
 ![My Project Screenshot](IMG_2969.jpeg)
+![My Project Screenshot](something.png)
+
+### Note: The model and data acquisition process was distorted by people passing by, disrupting the depth perception of the TOF sensor, as well as noise and quantization errors. Despite being at a relatively low sample rate and busy hallway, it was able to correctly identify the borders and dimensions of the hallway itself.
+
 ## Project Overview
 This project delivers a budget-friendly alternative to expensive industrial LIDAR configurations. Utilizing a microcontroller and a Time-of-Flight (ToF) ranging sensor, the system accurately samples environmental distance data. The captured spatial point clouds are transmitted over a serial interface to MATLAB, where they are dynamically visualised and assembled into complete 3D models of open spaces like hallways.
 
